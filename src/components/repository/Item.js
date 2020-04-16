@@ -16,6 +16,7 @@ const RepositoryItem = ({ repositories, click, id }) => (
           <S.Tech>{repository.techs[2]}</S.Tech>
         </S.TechsContainer>
 
+
         <S.LikesContainer>
           <S.LikeText testID={`repository-likes-${repository.id}`}>
             {repository.likes} curtida{repository.likes > 1 ? 's' : ''}
